@@ -16,10 +16,6 @@ metric = tf.keras.metrics.CategoricalAccuracy('accuracy')
 # Compile the model with the specified optimizer, loss, and metrics
 model.compile(optimizer=optimizer, loss=loss, metrics=[metric])
 
-# Prepare datasets by adjusting batch size and prefetching
-train_dataset = train_dataset.batch(16).prefetch(tf.data.AUTOTUNE)
-test_dataset = test_dataset.batch(16).prefetch(tf.data.AUTOTUNE)
-
 # Define callbacks
 checkpoint = tf.keras.callbacks.ModelCheckpoint(
     'model_best', save_best_only=True, verbose=1, save_format='tf')
