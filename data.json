@@ -1,0 +1,846 @@
+{
+    "PolicyCategories": [
+      {
+        "Category": "Data Leakage Prevention",
+        "Configurations": [
+          {
+            "Setting": "Print Webpage",
+            "Description": "Disables printing web pages.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Print from Cloud Storage",
+            "Description": "Disables printing from cloud storage services.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Automatic Browser Sync",
+            "Description": "Disables synchronization of browser data across devices.",
+            "SupportedBrowsers": ["Chrome", "Edge", "Firefox"]
+          },
+          {
+            "Setting": "Save Browser History",
+            "Description": "Prevents the browser from saving browsing history.",
+            "SupportedBrowsers": ["Chrome", "Edge", "Firefox"]
+          },
+          {
+            "Setting": "Autofill",
+            "Description": "By disabling this, users will not be able to capture screenshots.",
+            "SupportedBrowsers": ["Chrome", "Edge", "Internet Explorer"]
+          },
+          {
+            "Setting": "File upload to webpages",
+            "Description": "By disabling this, data entered in websites will not be remembered. eg., Address entered in one site will not automatically get filled in another site.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Capture screenshots",
+            "Description": "By disabling this, users will not be able to capture screenshots.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Remember passwords",
+            "Description": "By disabling this, passwords of accounts will not be saved by the browsers.",
+            "SupportedBrowsers": ["Chrome", "Edge","Internet Explorer", "Firefox"]
+          },
+          {
+            "Setting": "Site per process",
+            "Description": "Is this configuration is enabled, each domain will be opened as a new instance.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Metrics reporting to google",
+            "Description": "By selecting disable, telemetry reporting will not be sent to Google.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Prompt for download location",
+            "Description": "By selecting disable, prompt for storing downloads in a specific folder, will not be displayed to users.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Browser history deletion",
+            "Description": "By choosing disable, users will not be able to delete browser history.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Background processing",
+            "Description": "By selecting disable, background processing will be disabled.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Network Prediction",
+            "Description": "By selecting disable, network prediction will be turned off, which would increase the time taken to load webpages.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Third Party Cookies",
+            "Description": "Selecting 'never allow' will block all third party cookies.",
+            "SupportedBrowsers": ["Firefox"]
+          }
+        ]
+      },
+      {
+        "Category": "Threat Prevention",
+        "Configurations": [
+          {
+            "Setting": "Phishing Filter",
+            "Description": "Blocks sites with malicious content including ransomware, viruses, and phishing campaigns.",
+            "SupportedBrowsers": ["Chrome", "Edge", "Internet Explorer", "Firefox"]
+          },
+          {
+            "Setting": "File Downloads",
+            "Description": "Blocks downloading of all files.",
+            "SupportedBrowsers": ["Chrome", "Edge", "Internet Explorer"]
+          },
+          {
+            "Setting": "Over-ride certificate errors",
+            "Description": "Users will not be able to proceed past certificate errors displayed by websites.",
+            "SupportedBrowsers": ["Chrome", "Edge", "Internet Explorer", "Firefox"]
+          },
+          {
+            "Setting": "Verification of certificate with revocation list",
+            "Description": "certificates will be verified with certificate revocation list that contain a list of certificates that are dangerous and shouldn't be trusted. If certificate is part of the revocation list, a certificate error will be thrown to the user.",
+            "SupportedBrowsers": ["Internet Explorer"]
+          },
+          {
+            "Setting": "Zone Elevation Protection",
+            "Description": "By enabling this, privilege applied to one zone that has lower security setting, will not be applied to a zone that needs higher security setting",
+            "SupportedBrowsers": ["Internet Explorer"]
+          },
+          {
+            "Setting": "Browser Helper Object",
+            "Description": "By disabling this, users can not load third party browser helper objects.",
+            "SupportedBrowsers": ["Internet Explorer"]
+          },
+          {
+            "Setting": "Flash Restriction",
+            "Description": "By disabling this, Adobe Flash plugins will be restricted on sites.",
+            "SupportedBrowsers": ["Chrome", "Edge", "Internet Explorer", "Firefox"]
+          },
+          {
+            "Setting": "IE Plugin Protection",
+            "Description": "By disabling this, users will only be able to install those plugins that are signed by a developer, when he lands on a site with plugin requirements. Installation of unsigned plugins will be restricted.",
+            "SupportedBrowsers": ["Internet Explorer"]
+          },
+          {
+            "Setting": "Run scripts on web page",
+            "Description": "By disabling this, scripts in web pages will not be rendered.",
+            "SupportedBrowsers": ["Internet Explorer"]
+          },
+          {
+            "Setting": "Unsigned IE plugins",
+            "Description": "By disabling this, users will only be able to install those plugins that are signed by a developer, when he lands on a site with plugin requirements. Installation of unsigned plugins will be restricted",
+            "SupportedBrowsers": ["Internet Explorer"]
+          },
+          {
+            "Setting": "Block websites with excessive ads",
+            "Description": "if this configuration is enabled, websites that contain excessive ads will be blocked.",
+            "SupportedBrowsers": ["Chrome", "Edge"]
+          },
+          {
+            "Setting": "Block third party websites that inject code",
+            "Description": "By enabling this configuration, untrusted third-party websites that tamper with browser content will be blocked.",
+            "SupportedBrowsers": ["Chrome"]
+          }
+        ]
+      },
+      {
+        "Category": "Browser Customization",
+        "Configurations": [
+          {
+            "Browser": "Chrome",
+            "Settings": [
+              {
+                "Setting": "Web Bluetooth Guard",
+                "Description": "By selecting restrict, websites will not be able to access WebBluetooth API."
+              },
+              {
+                "Setting": "Display Image",
+                "Description": "By selecting restrict, websites will not be able to display images."
+              },
+              {
+                "Setting": "Javascript",
+                "Description": "By selecting restrict, Javascipt will be disabled on all websites."
+              },
+              {
+                "Setting": "Popups",
+                "Description": "By selecting restrict, websites will not be able to display popups."
+              },
+              {
+                "Setting": "Video Capture",
+                "Description": "By selecting restrict, websites will not record video."
+              },
+              {
+                "Setting": "Cookies",
+                "Description": "By selecting block, websites will not be able to store cookies."
+              },
+              {
+                "Setting": "Geolocation",
+                "Description": "By selecting block, websites will not be able to send browser notifications."
+              },
+              {
+                "Setting": "Notifications",
+                "Description": "By selecting block, websites will not be able to send browser notifications."
+              },
+              {
+                "Setting": "Plugins",
+                "Description": "By selecting block, plugins will be blocked on all websites."
+              },
+              {
+                "Setting": "Audio Capture",
+                "Description": "By selecting restrict, audio caption will be blocked for specific websites that are present in selected website groups."
+              },
+              {
+                "Setting": "Video Capture",
+                "Description": "By selecting restrict, video caption will be blocked for specific websites that are present in selected website groups."
+              },
+              {
+                "Setting": "Display Image",
+                "Description": "By selecting restrict, selected websites will not display images."
+              },
+              {
+                "Setting": "Javascript",
+                "Description": "By selecting restrict, Javascipt will be disabled on selected websites."
+              },
+              {
+                "Setting": "Notifications",
+                "Description": "By selecting block, selected websites will not send browser notifications."
+              },
+              {
+                "Setting": "Popups",
+                "Description": "By selecting restrict, selected websites will not be able to display popups."
+              },
+              {
+                "Setting": "Cookies",
+                "Description": "By selecting block, selected websites will not be able to store cookies."
+              },
+            
+
+              {
+                "Setting": "Media Router",
+                "Description": "By selecting disable, users will not be able to cast tabs, websites or desktop from the browser."
+              },
+              {
+                "Setting": "Show Cast Icon in Toolbar",
+                "Description": "By selecting restrict, users will not be able to pin or remove the icon via its contextual menu."
+              },
+              {
+                "Setting": "Autofill",
+                "Description": "By selecting disable, websites will not pre-fill fields."
+              },
+              {
+                "Setting": "Developer Tools",
+                "Description": "By selecting disable, developer tools and JavaScript console will be disabled."
+              },
+              {
+                "Setting": "Print from cloud storage",
+                "Description": "Selecting restrict will not allow users to print from cloud storage."
+              },
+              {
+                "Setting": "Cloud Print Proxy Enabled",
+                "Description": "By selecting allow, chrome can act as proxy for legacy printers connected to the machine. This enables printers to be shared with google cloud print."
+              },
+              {
+                "Setting": "Capture screenshots",
+                "Description": "By selecting restrict, users will not be able to capture screenshots."
+              },
+              {
+                "Setting": "Print webpage",
+                "Description": "By selecting restrict, users will not be able to print webpages."
+              },
+              {
+                "Setting": "File upload to webpages",
+                "Description": "By selecting restrict, users will not be able to upload files to webpages."
+              },
+              {
+                "Setting": "Allow user to install Chrome Beta",
+                "Description": "Selecting no will ensure that users can not install Chrome Beta version."
+              },
+              {
+                "Setting": "Allow user to install Chrome Dev",
+                "Description": "Selecting no will ensure that users can not install Chrome Dev version."
+              },
+              {
+                "Setting": "Allow user to install Chrome Canary",
+                "Description": "Selecting no will ensure that users can not install Chrome Canary version."
+              },
+              {
+                "Setting": "Chrome Update",
+                "Description": "This configuration will decide how Chrome updates are installed."
+              },
+              {
+                "Setting": "Sync Disabled",
+                "Description": "By selecting restrict, users will not be able to sync apps, themes, bookmarks, passwords, settings etc. between browser accounts with cloud account."
+              },
+              {
+                "Setting": "Over-ride certificate errors",
+                "Description": "By selecting restrict, users will not be able to proceed past certificate errors displayed by websites."
+              },
+              {
+                "Setting": "Malware filter",
+                "Description": "By enabling this, sites that contain malicious content in any from: ransomware, viruses, phishing campaigns etc., will be blocked."
+              },
+              {
+                "Setting": "Save browser history",
+                "Description": "By selecting restrict, browser history will not be remembered."
+              },
+              {
+                "Setting": "Block third-party cookies",
+                "Description": "Enabling this will block all third party cookies."
+              },
+              {
+                "Setting": "Disable Safe Browsing Proceed Anyway",
+                "Description": "By selecting allow, users will be able to proceed past malware warning screens."
+              },
+              {
+                "Setting": "Force Google Safe Search",
+                "Description": "SafeSearch is a feature that acts as an automated filter of pornography and potentially offensive and inappropriate content. Selecting restrict will turn off the feature."
+              },
+              {
+                "Setting": "End processes in Task Manager",
+                "Description": "Selecting restrict, will not allow users to end processes in task manager."
+              },
+              {
+                "Setting": "Restrict Youtube forcefully",
+                "Description": "Selecting high will restrict the usage of youtube completely and selecting low will not restrict usage."
+              },
+              {
+                "Setting": "Incognito mode",
+                "Description": "Selecting disable will restrict users from accessing incognito mode. Selecting Force, will allow open browsers in Incognito mode."
+              },
+              {
+                "Setting": "Hardware Acceleration Mode",
+                "Description": "Hardware acceleration mode is a feature which takes advantage of your computer’s GPU to speed up processes and free vital CPU time. Selecting restrict will disable the feature."
+              },
+              {
+                "Setting": "3D APIs",
+                "Description": "Selecting disable, restricts webpages from accessing the GPU, WebGL and Pepper 3D APIs."
+              },
+              {
+                "Setting": "Auto-select certificates",
+                "Description": "Selecting enable, allows you to specify a list of url patterns that specify sites for which Google Chrome should automatically select a client certificate, if the site requests a certificate."
+              },
+              {
+                "Setting": "Certificate Transparency Enforcement For URLs",
+                "Description": "Disables enforcing Certificate Transparency requirements to the listed URLs."
+              },
+              {
+                "Setting": "Browser sign-in",
+                "Description": "By clicking on 'Deny', users will not be able to sign-in to the browser with their account and access user-account based services. By selecting 'Force sign-in' users will be able to access the browser only if they sign-in."
+              },
+              {
+                "Setting": "Allow users to use guest mode",
+                "Description": "By clicking on 'No', users will not be able to log into the browser as a guest."
+              },
+              {
+                "Setting": "Force ephemeral mode",
+                "Description": "By clicking on 'Yes', users' browsing sessions will be ephemeral and user-data will be persisted only until the session is active. None of the data will be saved on closing the session."
+              },
+              {
+                "Setting": "Define primary browser account",
+                "Description": "Defining the primary account determines which Google accounts can be set as browser primary accounts in Google Chrome."
+              },
+              {
+                "Setting": "Define download directory",
+                "Description": "Defining the default directory determines the directory that Google Chrome will use for downloading files. If users do not have the defined directory in their computers, they will be prompted to select their preferred directory during each download."
+              },
+              {
+                "Setting": "Bookmark manager",
+                "Description": "Bookmark Manager will allow you to save websites as favourites to users' bookmarks bar."
+              },
+              {
+                "Setting": "Make New Tab as Homepage",
+                "Description": "Selecting yes will make a new tab as the homepage. Selecting no will let you configure a specific website as the homepage"
+              },
+              {
+                "Setting": "Action on startup",
+                "Description": "Selecting 'Open new tab' will open a new tab on starting the browser. Selecting 'Restoring the last session' will restore the user's last browser session on starting the browser. Selecting 'Open a URL' will open the specified URL while starting the browser."
+              },
+              {
+                "Setting": "Set Chrome as default browser",
+                "Description": "Selecting 'yes' will set chrome as the default browser on users' machines."
+              }
+            ]
+          },
+          {
+            "Browser": "Firefox",
+            "Settings": [
+              {
+                "Setting": "Enhanced Tracking Protection",
+                "Description": "Blocks third-party tracking cookies and cryptominers by default."
+              },
+              {
+                "Setting": "Firefox Data Collection and Use",
+                "Description": "Disables the collection and sharing of telemetry data with Mozilla."
+              },
+              {
+                "Setting": "Homepage URL",
+                "Description": "The URL entered will be be set as the homepage."
+              },
+              {
+                "Setting": "About add-on page",
+                "Description": "Selecting restricts, blocks access to the Add-ons Manager."
+              },
+              {
+                "Setting": "About configurations page",
+                "Description": "About configurations page allows users to change and manipulate the application settings on Firefox known as preferences. Selecting restrict will block access to the about configurations page."
+              },
+              {
+                "Setting": "About profiles page",
+                "Description": "A profile is the collection of settings, customizations, add-ons, and other personalizations that a user has made or installed on their Firefox browser. Selecting restrict will block access to the profiles page."
+              },
+              {
+                "Setting": "About support page",
+                "Description": "Selecting restrict will block access to Troubleshooting Information."
+              },
+              {
+                "Setting": "App update",
+                "Description": "Selecting disable will prevent automatic application update."
+              },
+              {
+                "Setting": "Developer tools",
+                "Description": "Selecting disable will block access to all developer tools."
+              },
+              {
+                "Setting": "Built in PDF viewer",
+                "Description": "Disabling the built in PDF viewer. PDF files will be downloaded and sent externally."
+              },
+              {
+                "Setting": "Screenshot button",
+                "Description": "Disabling the screenshot button will remove access to Firefox screenshots."
+              },
+              {
+                "Setting": "Accounts",
+                "Description": "Disabling accounts will disable Firefox integrations (sync)."
+              },
+              {
+                "Setting": "Private browsing",
+                "Description": "Disabling private browsing will restrict users from accessing incognito mode."
+              },
+              {
+                "Setting": "Bookmarks toolbar",
+                "Description": "Disabling this setting will hide the bookmark toolbar on users' browsers."
+              },
+              {
+                "Setting": "Menu bar",
+                "Description": "Disabling this setting will hide the menu bar on users' browsers."
+              }
+            ]
+          },
+          {
+            "Browser": "Edge",
+            "Settings": [
+              {
+                "Setting": "Tracking Prevention",
+                "Description": "Prevents trackers from websites you haven’t visited from collecting your data."
+              },
+              {
+                "Setting": "Block Pop-ups",
+                "Description": "Blocks pop-up windows to provide a smoother browsing experience."
+              },
+              {
+                "Setting": "Web Bluetooth Guard",
+                "Description": "By selecting restrict, websites will not be able to access WebBluetooth API."
+              },
+              {
+                "Setting": "Adobe Flash",
+                "Description": "Disabling this setting restricts usage of adobe flash."
+              },
+              {
+                "Setting": "Pop-ups",
+                "Description": "Disabling this setting restricts pop-ups."
+              },
+              {
+                "Setting": "Prompt user to run adobe flash",
+                "Description": "Disabling this setting does not provide a prompt window to allowing users an option to run or block Adobe flash."
+              },
+              {
+                "Setting": "Allow clearing browsing data on exit",
+                "Description": "Disabling this setting prevents clearing of browsing history on exiting the page."
+              },
+              {
+                "Setting": "Automatic search suggestion in the address bar",
+                "Description": "Disabling this setting ensures the suggestions in the address bar is turned off."
+              },
+              {
+                "Setting": "Display Image",
+                "Description": "By selecting restrict, websites will not be able to display images."
+              },
+              {
+                "Setting": "Javascript",
+                "Description": "By selecting restrict, Javascipt will be disabled on all websites."
+              },
+              {
+                "Setting": "Popups",
+                "Description": "By selecting restrict, websites will not be able to display popups."
+              },
+              {
+                "Setting": "Video Capture",
+                "Description": "By selecting restrict, websites will not record video."
+              },
+              {
+                "Setting": "Cookies",
+                "Description": "By selecting block, websites will not be able to store cookies."
+              },
+              {
+                "Setting": "Geolocation",
+                "Description": "By selecting block, websites will not be able to track users' location."
+              },
+              {
+                "Setting": "Notifications",
+                "Description": "By selecting block, websites will not be able to send browser notifications."
+              },
+              {
+                "Setting": "Plugins",
+                "Description": "By selecting block, plugins will be blocked on all websites."
+              },
+              {
+                "Setting": "Audio Capture",
+                "Description": "By selecting restrict, audio caption will be blocked for specific websites that are present in selected website groups."
+              },
+              {
+                "Setting": "Video Capture",
+                "Description": "By selecting restrict, video caption will be blocked for specific websites that are present in selected website groups."
+              },
+              {
+                "Setting": "Display Image",
+                "Description": "By selecting restrict, selected websites will not display images."
+              },
+              {
+                "Setting": "Javascript",
+                "Description": "By selecting restrict, Javascipt will be disabled on selected websites."
+              },
+              {
+                "Setting": "Notifications",
+                "Description": "By selecting block, selected websites will not send browser notifications."
+              },
+              {
+                "Setting": "Popups",
+                "Description": "By selecting restrict, selected websites will not be able to display popups."
+              },
+              {
+                "Setting": "Cookies",
+                "Description": "By selecting block, selected websites will not be able to store cookies."
+              },
+            
+
+              {
+                "Setting": "Media Router",
+                "Description": "By selecting disable, users will not be able to cast tabs, websites or desktop from the browser."
+              },
+              {
+                "Setting": "Show Cast Icon in Toolbar",
+                "Description": "By selecting restrict, users will not be able to pin or remove the icon via its contextual menu."
+              },
+              {
+                "Setting": "Autofill",
+                "Description": "By selecting disable, websites will not pre-fill fields."
+              },
+              {
+                "Setting": "Developer Tools",
+                "Description": "By selecting disable, developer tools and JavaScript console will be disabled."
+              },
+              {
+                "Setting": "Print from cloud storage",
+                "Description": "Selecting restrict will not allow users to print from cloud storage."
+              },
+              {
+                "Setting": "Cloud Print Proxy Enabled",
+                "Description": "By selecting allow, chrome can act as proxy for legacy printers connected to the machine. This enables printers to be shared with google cloud print."
+              },
+              {
+                "Setting": "Capture screenshots",
+                "Description": "By selecting restrict, users will not be able to capture screenshots."
+              },
+              {
+                "Setting": "Print webpage",
+                "Description": "By selecting restrict, users will not be able to print webpages."
+              },
+              {
+                "Setting": "File upload to webpages",
+                "Description": "By selecting restrict, users will not be able to upload files to webpages."
+              },
+              {
+                "Setting": "Allow user to install Chrome Beta",
+                "Description": "Selecting no will ensure that users can not install Chrome Beta version."
+              },
+              {
+                "Setting": "Allow user to install Chrome Dev",
+                "Description": "Selecting no will ensure that users can not install Chrome Dev version."
+              },
+              {
+                "Setting": "Allow user to install Chrome Canary",
+                "Description": "Selecting no will ensure that users can not install Chrome Canary version."
+              },
+              {
+                "Setting": "Chrome Update",
+                "Description": "This configuration will decide how Chrome updates are installed."
+              },
+              {
+                "Setting": "Sync Disabled",
+                "Description": "By selecting restrict, users will not be able to sync apps, themes, bookmarks, passwords, settings etc. between browser accounts with cloud account."
+              },
+              {
+                "Setting": "Over-ride certificate errors",
+                "Description": "By selecting restrict, users will not be able to proceed past certificate errors displayed by websites."
+              },
+              {
+                "Setting": "Malware filter",
+                "Description": "By enabling this, sites that contain malicious content in any from: ransomware, viruses, phishing campaigns etc., will be blocked."
+              },
+              {
+                "Setting": "Save browser history",
+                "Description": "By selecting restrict, browser history will not be remembered."
+              },
+              {
+                "Setting": "Block third-party cookies",
+                "Description": "Enabling this will block all third party cookies."
+              },
+              {
+                "Setting": "Disable Safe Browsing Proceed Anyway",
+                "Description": "By selecting allow, users will be able to proceed past malware warning screens."
+              },
+              {
+                "Setting": "Force Google Safe Search",
+                "Description": "SafeSearch is a feature that acts as an automated filter of pornography and potentially offensive and inappropriate content. Selecting restrict will turn off the feature."
+              },
+              {
+                "Setting": "End processes in Task Manager",
+                "Description": "Selecting restrict, will not allow users to end processes in task manager."
+              },
+              {
+                "Setting": "Restrict Youtube forcefully",
+                "Description": "Selecting high will restrict the usage of youtube completely and selecting low will not restrict usage."
+              },
+              {
+                "Setting": "Incognito mode",
+                "Description": "Selecting disable will restrict users from accessing incognito mode. Selecting Force, will allow open browsers in Incognito mode."
+              },
+              {
+                "Setting": "Hardware Acceleration Mode",
+                "Description": "Hardware acceleration mode is a feature which takes advantage of your computer’s GPU to speed up processes and free vital CPU time. Selecting restrict will disable the feature."
+              },
+              {
+                "Setting": "3D APIs",
+                "Description": "Selecting disable, restricts webpages from accessing the GPU, WebGL and Pepper 3D APIs."
+              },
+              {
+                "Setting": "Auto-select certificates",
+                "Description": "Selecting enable, allows you to specify a list of url patterns that specify sites for which Google Chrome should automatically select a client certificate, if the site requests a certificate."
+              },
+              {
+                "Setting": "Certificate Transparency Enforcement For URLs",
+                "Description": "Disables enforcing Certificate Transparency requirements to the listed URLs."
+              },
+              {
+                "Setting": "Browser sign-in",
+                "Description": "By clicking on 'Deny', users will not be able to sign-in to the browser with their account and access user-account based services. By selecting 'Force sign-in' users will be able to access the browser only if they sign-in."
+              },
+              {
+                "Setting": "Allow users to use guest mode",
+                "Description": "By clicking on 'No', users will not be able to log into the browser as a guest."
+              },
+              {
+                "Setting": "Force ephemeral mode",
+                "Description": "By clicking on 'Yes', users' browsing sessions will be ephemeral and user-data will be persisted only until the session is active. None of the data will be saved on closing the session."
+              },
+              {
+                "Setting": "Define primary browser account",
+                "Description": "Defining the primary account determines which Google accounts can be set as browser primary accounts in Google Chrome."
+              },
+              {
+                "Setting": "Define download directory",
+                "Description": "Defining the default directory determines the directory that Google Chrome will use for downloading files. If users do not have the defined directory in their computers, they will be prompted to select their preferred directory during each download."
+              },
+              {
+                "Setting": "Bookmark manager",
+                "Description": "Bookmark Manager will allow you to save websites as favourites to users' bookmarks bar."
+              },
+              {
+                "Setting": "Make New Tab as Homepage",
+                "Description": "Selecting yes will make a new tab as the homepage. Selecting no will let you configure a specific website as the homepage"
+              },
+              {
+                "Setting": "Action on startup",
+                "Description": "Selecting 'Open new tab' will open a new tab on starting the browser. Selecting 'Restoring the last session' will restore the user's last browser session on starting the browser. Selecting 'Open a URL' will open the specified URL while starting the browser."
+              },
+              {
+                "Setting": "Set Chrome as default browser",
+                "Description": "Selecting 'yes' will set chrome as the default browser on users' machines."
+              }
+     
+            ]
+          },
+          {
+            "Browser": "Internet Explorer",
+            "Settings": [
+              {
+                "Setting": "SmartScreen Filter",
+                "Description": "Helps detect phishing websites and protects against downloading malicious software."
+              },
+              {
+                "Setting": "ActiveX Filtering",
+                "Description": "Blocks ActiveX controls until allowed by the user, enhancing security."
+              }, 
+              {
+                "Setting": "Zone settings",
+                "Description": "Internet explorer provides a security level slider which you can use to define security boundaries for the four zones. The available security levels are"
+              }, 
+              {
+                "Setting": "Lockdown",
+                "Description": "Selecting hide, will not display the corresponding tab on users' browsers."
+              }, 
+              {
+                "Setting": "Full screen mode",
+                "Description": "Enabling this configuration will always display the users' browsers as a full screen."
+              }, 
+              {
+                "Setting": "Developer Tools",
+                "Description": "This policy setting allows you to manage whether the user can access Developer Tools in Internet Explorer. If you disable this policy setting, the user cannot access Developer Tools."
+              }, 
+              {
+                "Setting": "Hide The Command Bar",
+                "Description": "This policy setting allows you to show or hide the Command bar. If you enable this policy setting, the Command bar is hidden and the user cannot choose to show it."
+              }, 
+              {
+                "Setting": "Hide The Status Bar",
+                "Description": "This policy setting allows you to show or hide the status bar. If you enable this policy setting, the status bar is hidden and the user cannot choose to show it."
+              }, 
+              {
+                "Setting": "Lock All Tool Bars",
+                "Description": "If you enable this policy setting, the toolbars are locked and the user cannot move them. If you disable this policy setting, the toolbars are unlocked and the user can move them."
+              }, 
+              {
+                "Setting": "Inprivate Tools",
+                "Description": "If you enable this policy setting, InPrivate Filtering data is preserved when the user clicks Delete."
+              }, 
+              {
+                "Setting": "Print Webpage",
+                "Description": "This policy setting allows you to manage whether users can access the Print menu."
+              }, 
+              {
+                "Setting": "Reset IE settings",
+                "Description": "Reset Internet Explorer Settings allows the user to reset all settings changed since installation, delete browsing history, and disable add-ons that are not pre-approved. If you enable this policy setting, the user cannot use Reset Internet Explorer Settings."
+              }, 
+              {
+                "Setting": "Change proxy settings",
+                "Description": "If you enable this policy setting, the user will not be able to configure proxy settings."
+              }, 
+              {
+                "Setting": "Disable Changing Automatic Configuration Settings",
+                "Description": "If you enable this policy setting, the user will not be able to do automatic configuration. You can only import connection settings."
+              }, 
+              {
+                "Setting": "Disable changing connection settings",
+                "Description": "Prevents users from changing dial-up settings. If you enable this policy, the Settings button on the Connections tab in the Internet Options dialog box appears dimmed."
+              }, 
+              {
+                "Setting": "Prevent ignoring certificate errors",
+                "Description": "This policy setting prevents the user from ignoring Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificate errors that interrupt browsing (such as 'expired', 'revoked' or 'name mismatch' errors) in Internet Explorer."
+              }, 
+              {
+                "Setting": "Turn on certificate address mismatch warning",
+                "Description": "This policy setting allows you to turn on the certificate address mismatch security warning. When this policy setting is turned on, the user is warned when visiting Secure HTTP (HTTPS) websites that present certificates issued for a different website address. This warning helps prevent spoofing attacks."
+              }, 
+              {
+                "Setting": "Allow software to run or install even if the signature is invalid",
+                "Description": "If you enable this policy setting, users will be prompted to install or run files(such as ActiveX controls) with an invalid signature."
+              }, 
+              {
+                "Setting": "Check for signatures on downloaded programs",
+                "Description": "If you enable this policy setting, Internet Explorer will check the digital signatures of executable programs and display their identities before downloading them to user computers."
+              }, 
+              {
+                "Setting": "Install new versions of Internet Explorer automatically",
+                "Description": "This policy setting allows you to manage whether Internet Explorer uses HTTP 1.1. If you enable this policy setting, Internet Explorer uses HTTP 1.1."
+              }, 
+              {
+                "Setting": "Use HTTP 1.1",
+                "Description": "This policy setting allows you to manage whether Internet Explorer uses HTTP 1.1. If you enable this policy setting, Internet Explorer uses HTTP 1.1."
+              }, 
+              {
+                "Setting": "Use HTTP 1.1 through proxy connections",
+                "Description": "This policy setting allows you to manage whether Internet Explorer uses HTTP 1.1 through proxy connections."
+              }, 
+              {
+                "Setting": "Do not save encrypted pages to disk",
+                "Description": "If you enable this policy setting, Internet Explorer will not save encrypted pages containing secure (HTTPS) information to the cache."
+              }, 
+              {
+                "Setting": "Consistent Mime Handling for Internet Explorer Processes",
+                "Description": "If you enable this configuration, MIME data will be used to determine file handling procedures for files that are received through a Web server."
+              }, 
+              {
+                "Setting": "Empty Temporary Internet Files folder when browser is closed",
+                "Description": "If you enable this policy setting, Internet Explorer will delete the contents of the user's Temporary Internet Files folder when all browser windows are closed."
+              }, 
+              {
+                "Setting": "Check for server certificate revocation",
+                "Description": "This policy setting allows you to manage whether Internet Explorer will check revocation status of servers' certificates. If you enable this policy setting, Internet Explorer will check to see if server certificates have been revoked."
+              }, 
+              {
+                "Setting": "Turn off the Security Settings Check feature",
+                "Description": "This policy setting turns off the Security Settings Check feature, which checks Internet Explorer security settings to determine when the settings put Internet Explorer at risk. If you enable this policy setting, the feature is turned off."
+              }, 
+              {
+                "Setting": "Protection From Zone Elevation for Internet Explorer Processes",
+                "Description": "Web pages on the local computer have the fewest security restrictions and reside in the Local Machine zone, making the Local Machine security zone a prime target for malicious users. Zone Elevation disables JavaScript navigation if there is no security context."
+              }, 
+              {
+                "Setting": "Restrict File Download for Internet Explorer Processes",
+                "Description": "Enables applications hosting the Web Browser Control to block automatic prompting of file downloads that were not user initiated."
+              },
+              {
+                "Setting": "Turn off encryption support",
+                "Description": "This policy setting allows you to turn off support for Transport Layer Security (TLS) 1.0, TLS 1.1, TLS 1.2, Secure Sockets Layer (SSL) 2.0, or SSL 3.0 in the browser. If you enable this policy setting, the browser negotiates or does not negotiate an encryption tunnel by using the encryption methods that you select."
+              },
+              {
+                "Setting": "Prevent the computer from loading toolbars and Browser Helper Objects when InPrivate Browsing starts",
+                "Description": "This policy setting allows you to choose whether or not toolbars and Browser Helper Objects (BHOs) are loaded by default during an InPrivate Browsing session."
+              },
+              {
+                "Setting": "Third-party browser extensions",
+                "Description": "This policy setting allows you to manage whether Internet Explorer will launch browser helper objects."
+              },
+              {
+                "Setting": "Automatically activate newly installed add-ons",
+                "Description": "If you enable this policy setting, newly installed add-ons are automatically activated in the browser."
+              },
+              {
+                "Setting": "Restrict ActiveX Install for Internet Explorer Processes",
+                "Description": "Enables applications hosting the Web Browser Control to block automatic prompting of ActiveX control installation."
+              },
+              {
+                "Setting": "Remove 'Run this time' button for outdated ActiveX controls in Internet Explorer",
+                "Description": "If you enable this policy setting, users won't see the 'Run this time'button on the warning message that appears when Internet Explorer blocks an outdated ActiveX control."
+              },
+              {
+                "Setting": "Turn off blocking of outdated ActiveX controls for Internet Explorer",
+                "Description": "If you enable this policy setting, you can enter a custom list of domains for which outdated ActiveX controls won't be blocked in Internet Explorer."
+              },
+              {
+                "Setting": "Auto-complete for web addresses",
+                "Description": "Clicking on disable will not pre-fill users' web addresses."
+              },
+              {
+                "Setting": "Autofill for forms",
+                "Description": "Clicking on disable will not pre-fill forms."
+              },
+              {
+                "Setting": "Autofill for username and password",
+                "Description": "Clicking on disable will not pre-fill users' username and passwords."
+              },
+              {
+                "Setting": "Set Chrome as default browser",
+                "Description": "Selecting 'yes' will set chrome as the default browser on users' machines."
+              }
+
+            ]
+          }
+        ]
+      }
+      
+    ]
+  }
+  
